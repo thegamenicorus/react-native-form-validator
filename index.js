@@ -56,7 +56,7 @@ export default class ValidationComponent extends Component {
       ) {
         this._addError(
           fieldName,
-          value.label ? value.label : fieldName,
+          rules.label ? rules.label : fieldName,
           key,
           rules[key],
           isRuleFn
